@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name digikey-footprints)(type KiCad)(uri /Users/peteje/other/dev/digi-key/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name FrankyAlpha)(type KiCad)(uri ${KIPRJMOD}/FrankyAlpha.pretty)(options "")(descr ""))
+)

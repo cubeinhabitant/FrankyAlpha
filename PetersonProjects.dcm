@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B3F-1020
+D SWITCH TACTILE SPST-NO 0.05A 24V
+K SW400-ND B3F
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf
+$ENDCMP
+#
+$CMP Barrel_Jack_Switch_RASM722
+D DC Barrel Jack with an internal switch
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
+$CMP FQD13N06L
+D MOSFET N-CH 60V 32A TO-220
+F https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf
+$ENDCMP
+#
+$CMP MB85RC256VPF-G-JNERE2
+D IC FRAM 64K SPI 20MHZ 8SOP
+K 865-1260-1-ND
+F http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS64V-DS501-00015-4v0-E.pdf
+$ENDCMP
+#
+#End Doc Library

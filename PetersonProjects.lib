@@ -1,0 +1,131 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# B3F-1020
+#
+DEF B3F-1020 S 0 40 Y Y 1 F N
+F0 "S" 0 200 60 H V C CNN
+F1 "B3F-1020" 0 -200 60 H V C CNN
+F2 "digikey-footprints:Switch_Tactile_THT_B3F-1xxx" 200 200 60 H I L CNN
+F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" 200 300 60 H I L CNN
+F4 "SW402-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "B3F-1020" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
+F8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH TACTILE SPST-NO 0.05A 24V" 200 1000 60 H I L CNN "Description"
+F11 "Omron Electronics Inc-EMC Div" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 100 -100 -100 N
+P 2 0 1 0 -70 0 -100 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 100 -100 100 100 N
+P 2 0 1 0 100 0 70 0 N
+P 2 1 1 0 -40 110 35 110 N
+P 2 1 1 0 0 110 0 50 N
+X ~ 1 -200 100 100 R 50 50 1 1 P
+X ~ 2 -200 -100 100 R 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Barrel_Jack_Switch_RASM722
+#
+DEF Barrel_Jack_Switch_RASM722 J 0 20 Y N 1 F N
+F0 "J" 0 210 50 H V C CNN
+F1 "Barrel_Jack_Switch_RASM722" 0 -200 50 H V C CNN
+F2 "" 50 -40 50 H I C CNN
+F3 "" 50 -40 50 H I C CNN
+$FPLIST
+ BarrelJack*
+$ENDFPLIST
+DRAW
+A -130 100 25 901 -901 0 1 10 F -130 125 -130 75
+A -130 100 25 901 -901 0 1 10 N -130 125 -130 75
+S -200 150 200 -150 0 1 10 f
+S 145 125 -130 75 0 1 10 F
+P 2 0 1 10 50 -90 75 -65 N
+P 2 0 1 10 200 100 150 100 N
+P 4 0 1 10 200 0 50 0 50 -90 25 -65 N
+P 6 0 1 10 -150 -100 -100 -100 -50 -50 0 -100 100 -100 200 -100 N
+X ~ 1 300 100 100 L 50 50 1 1 P
+X ~ 2 300 -100 100 L 50 50 1 1 P
+X ~ 3 300 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FQD13N06L
+#
+DEF FQD13N06L Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "FQD13N06L" 136 0 60 V V C CNN
+F2 "digikey-footprints:TO-252-3" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/FQU13N06L-D.PDF" 200 300 60 H I L CNN
+F4 "FQD13N06LTMCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "FQD13N06LTM" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/FQU13N06L-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/FQD13N06LTM/FQD13N06LTMCT-ND/3042598" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 60V 11A DPAK" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 3 0 -200 100 U 50 50 1 1 B
+X D 4 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# MB85RC256VPF-G-JNERE2
+#
+DEF MB85RC256VPF-G-JNERE2 U 0 40 Y Y 1 F N
+F0 "U" -100 250 60 H V C CNN
+F1 "MB85RC256VPF-G-JNERE2" 200 -400 60 H V L CNN
+F2 "digikey-footprints:SOIC-8_W3.9mm" 200 200 60 H I L CNN
+F3 "http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS64V-DS501-00015-4v0-E.pdf" 200 300 60 H I L CNN
+F4 "865-1249-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MB85RC256VPF-G-JNERE2" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Memory" 200 700 60 H I L CNN "Family"
+F8 "https://www.fujitsu.com/us/Images/MB85RC256V-DS501-00017-3v0-E.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/fujitsu-electronics-america-inc/MB85RC256VPF-G-JNERE2/865-1249-1-ND/4022672" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC FRAM 256K I2C 1MHZ 8SOP" 200 1000 60 H I L CNN "Description"
+F11 "Fujitsu Electronics America, Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -200 200 200 -400 0 1 0 f
+X A0 1 -300 100 100 R 50 50 1 1 I
+X A1 2 -300 0 100 R 50 50 1 1 I
+X A2 3 -300 -100 100 R 50 50 1 1 I
+X GND 4 100 -500 100 U 50 50 1 1 W
+X SDA 5 300 -100 100 L 50 50 1 1 B
+X SCK 6 -300 -300 100 R 50 50 1 1 I
+X WP 7 -300 -200 100 R 50 50 1 1 I
+X VDD 8 100 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
